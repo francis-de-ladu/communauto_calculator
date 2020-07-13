@@ -52,13 +52,6 @@ columns = [
 	'workweek_rate',
 ]
 
-disp_cols = [
-	'plan_name',
-	'hour_cost',
-	'day_cost',
-	'km_cost',
-]
-
 trips = {
 	'syl_dan': trip_infos(trip_km=62.3, hours_to=1.0, hours_there=6.0, weekly_freq=1/5, weekend=True),
 	'parents': trip_infos(trip_km=40.1, hours_to=.75, hours_there=28., weekly_freq=1/5, weekend=True),
